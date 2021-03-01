@@ -1,1 +1,1 @@
-# Bayesian_Q-Learning
+# Bayesian Q-Learning - Algorithm for multiagent reinforcement learning
