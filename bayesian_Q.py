@@ -8,8 +8,8 @@ import Game
 
 # Bayesian agent
 # Agents maintain PDF's for the reward (parameter) for each action.
-# Agens samples reward for each action from the PDF's, and selects action that has the highest sampled reward.
-# Agents updates PDF using (action, reward) tuples.
+# Agents sample reward for each action from the PDF's, and selects action that has the highest sampled reward.
+# Agents update PDF using (action, reward) tuples.
 class agent_BQ:
     def __init__(self, actions):
         self.action_centers = actions
